@@ -8,12 +8,12 @@
 <body>
     
     <header>
-        <a href="index.html"><img src="img/TMDB.svg" alt="TMDB" height="25px"></a>
+        <a href="index.html"><img src="img/TMDB.svg" alt="TMDB" height="25"></a>
         <nav>
 
             <ul>
                 <li><a href="#">Buscador</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="contacte.html">Contacto</a></li>
             </ul>
         </nav>
 
@@ -25,8 +25,10 @@
             <p>Millones de titutlos, un solo buscador.</p>
 
             <div>
-                <input type="text" name="" id="" placeholder="Busca una pelicula, por ejemplo: Cars 2">
-                <button>Buscar</button>
+                <form method="get" action="https://www.themoviedb.org/search">
+                    <input type="search" name="query" placeholder="Busca una pelicula, por ejemplo: Cars 2">
+                    <button>Buscar</button>
+                </form>
             </div>
             
         </section>
@@ -36,22 +38,24 @@
             <h2>Resultados</h2>
 
             <article>
-                <img src="img/Angeles y Demonios.jpg" alt="Angeles y Demonios" height="400px">
+                <img src="img/AngelesyDemonios.jpg" alt="Angeles y Demonios" height="400">
+                <h3>Angeles y Demonios</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ad, possimus id odio dicta ut deserunt ex amet rerum nobis exercitationem perspiciatis aperiam consequuntur nulla magnam. Modi dignissimos ullam fugit.</p>
-                <p>aaaaa</p>
+                
             </article>
 
             <article>
-                <img src="img/DBSB.jpg" alt="Dragon ball" height="400px">
+                <img src="img/DBSB.jpg" alt="Dragon ball" height="400">
+                <h3>Dragon Ball Super Broly</h3>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio a excepturi amet aliquid harum aliquam ad ullam praesentium iure nisi? Deserunt numquam vel aliquam in eum nam nemo laboriosam rerum?</p> 
-                <p> aaaaa</p>
+                
             </article>
         
 
             <article>
-                <img src="img/Rapidos y Furiosos.jpg" alt="Rapidos y Furiosos" height="400px">
+                <img src="img/RapidosyFuriosos.jpg" alt="Rapidos y Furiosos" height="400">
+                <h3>Rapidos y Furiosos X</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio a excepturi amet aliquid harum aliquam ad ullam praesentium iure nisi? Deserunt numquam vel aliquam in eum nam nemo laboriosam rerum?</p>
-                <p>aaaaa</p>
             </article>
 
         </section>
@@ -60,6 +64,7 @@
 
     <footer> 
         <p> 2026 The Movie Database - Maqueta de diseño </p>
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia eos praesentium culpa, in necessitatibus distinctio, quis non nam ab neque maxime illum nobis. Placeat id, asperiores molestias ut sed earum. </p>
     </footer>
 
 </body>
