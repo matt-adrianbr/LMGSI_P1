@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #14213d;
+    color: #fff;
+}
+
+.header-titulo {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 5px;
+}
+
+header h2 {
+    text-align: center;
+    margin: 0;
+    letter-spacing: 2px;
+}
+nav {
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: white;
+    transition: 1s;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fca311;
+    text-decoration: none;
+    background: rgba(94, 92, 92, 0.5);
+    padding: 10px;
+}
+
+nav ul {
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+    display: flex;
+    list-style: none;   
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    width: auto; 
+}
+
+main {
+    margin: 0;
+    background-color: #f7f5ef;
+    color: #333;
+    line-height: 1.5;
+    height: auto;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contenidoPrincipal p {
+    color: white;
+}
+
+.principal {
+    color: white;
+    background-image: url("../img/cafe.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.contenidoPrincipal {
+    text-align: center;
+}
+
+.contenidoPrincipal h1 {
+    font-size: 50px;
+}
+
+.contenidoPrincipal h1, 
+.contenidoPrincipal p, 
+.contenidoPrincipal a {
+    margin: 14px;
+}
+
+.boton {
+    margin-top: 10px;
+    display: inline-block;
+    background-color: rgb(252 163 17);
+    color: #14213d;
+    font-weight: 200;
+    transition: 1s;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.boton:hover {
+    transition: 1s;
+    color: #fff;
+}
+
+.tarjeta {
+    margin: 25px 100px;
+    background-color: white;
+    border: 2px solid black;
+    border-color: #14213d;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.tarjeta h2, 
+.tarjeta h3 {
+    color: #14213d;
+}
+
+.precio {
+    color: rgb(218, 132, 11);
+    font-weight: bold;
+}
+
+.horario {
+    width: 60%;                   
+    margin: 25px auto;            
+    text-align: center;
+    padding: 25px;
+    background-color: rgba(252, 163, 17, 0.15);
+    border: 2px dashed #fca311;    
+    border-radius: 12px;
+}
+
+.horario h2 {
+    color: #14213d;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #14213d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h2 {
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+
+header img {
+    height: 25px;
+}
